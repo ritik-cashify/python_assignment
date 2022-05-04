@@ -62,7 +62,19 @@ def add_nitem():
 
 add_nitem()
 
-#def nested_list
+def nested_list():
+    name = ['ritik', 'purvansh', 'avtar']
+    point = (1, 4, 5, 9)
+    print("The first list is:",name)
+    print("The second list is:",point)
+    name.extend(point)
+    print(name)
+
+nested_list()
+
+
+
+
 #to get index of the element id=list.index("element")
 def replace_element():
     list2[2] = 79
@@ -77,6 +89,8 @@ def remove_element():
 print("The list from which duplicate elements have to be removed:",list3)
 remove_element()
 print(list3)
+
+
 
 
 
