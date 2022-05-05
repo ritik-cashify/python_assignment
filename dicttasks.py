@@ -20,8 +20,24 @@ def merge_2dict():
     dict_1.update(dict_2)
     print(dict_1)
 
+def print_history():
+    sampleDict = {
+        "class": {
+            "student": {
+                "name": "Mike",
+                "marks": {
+                    "physics": 70,
+                    "history": 80
+                }
+            }
+        }
+    }
+
+    print(sampleDict['class']['student']['marks']['history'])
+
 if __name__=='__main__':
     list_2dict()
     merge_2dict()
+    print_history()
 
 
