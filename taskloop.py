@@ -49,6 +49,14 @@ def display_nos():
         print(i)
 
 
+def done_msg():
+    for i in range(0,5):
+        print(i)
+    else:
+        print("Done")
+
+
+
 if __name__ == '__main__':
     nat_nos()
     pyramid()
@@ -63,6 +71,7 @@ if __name__ == '__main__':
     list_11 = [3, 6, 8, 9]
     reverse_list(lst=list_11)
     display_nos()
+    done_msg()
 
 
 
