@@ -52,6 +52,11 @@ def delete_key():
         dict_1.pop(k)
     print(dict_1)
 
+def check_presence():
+    if 60 in dict_1.values():
+        print("is present")
+    else:
+        print("not present")
 
 
 if __name__=='__main__':
@@ -61,5 +66,6 @@ if __name__=='__main__':
     def_values()
     key_extract()
     delete_key()
+    check_presence()
 
 
