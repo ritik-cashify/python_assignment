@@ -46,6 +46,12 @@ def key_extract():
     dict_new = {k: dict_1[k] for k in key_2extract}
     print(dict_new)
 
+def delete_key():
+    key_2del = ['good','bad']
+    for k in key_2del:
+        dict_1.pop(k)
+    print(dict_1)
+
 
 
 if __name__=='__main__':
@@ -54,5 +60,6 @@ if __name__=='__main__':
     print_history()
     def_values()
     key_extract()
+    delete_key()
 
 
