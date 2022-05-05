@@ -9,10 +9,18 @@ def ac_twenty(tp):
 def single_item(tp):
     print(tp)
 
+def unpack_tp(tp):
+    q, x, y, z = tp
+    print(q)
+    print(x)
+    print(y)
+    print(z)
+
 
 if __name__ == '__main__':
-    tpl = (10, 20, 30, 40, 50)
+    tpl = (10, 20, 30, 40)
     tp1 = ("Orange", [10, 20, 30], (5, 15, 25))
     reverse_tuple(tp=tpl)
     ac_twenty(tp=tp1)
     single_item(tp=(50,))
+    unpack_tp(tp=tpl)
