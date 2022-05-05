@@ -27,6 +27,12 @@ def swap_2tuple(tp, tp_1):
     print("First tuple:", tp)
     print("second tuple:", tp_1)
 
+def copy_tuple(tp):
+    result = tp[1:3]
+    result = tuple(result)
+    print("The sliced tuple is:", result)
+
+
 
 
 if __name__ == '__main__':
@@ -38,3 +44,4 @@ if __name__ == '__main__':
     single_item(tp=(50,))
     unpack_tp(tp=tpl)
     swap_2tuple(tp=tpl, tp_1=tpl1)
+    copy_tuple(tp=tpl)
