@@ -11,6 +11,21 @@ def pyramid():
             print(j, end=' ')
         print('')
 
+def sumofnumbers(num):
+    sum = 0
+    for x in range(1, num + 1):
+        sum = sum + x
+
+    print(sum)
+
+def mul_table(num):
+    for x in range(1, num+1):
+        print(num, 'x', x, '=', num * x)
+
 if __name__ == '__main__':
     nat_nos()
     pyramid()
+    n = int(input("Enter the number: "))
+    sumofnumbers(n)
+    n1 = int(input("Enter the number :"))
+    mul_table(n)
