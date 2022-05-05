@@ -36,6 +36,17 @@ def count_digits(n):
         count=count+1
     print("Total digits:", count)
 
+#def pattern
+
+def reverse_list(lst):
+    i = len(lst) - 1
+    while i >=0:
+        print(lst[i])
+        i -= 1
+
+def display_nos():
+    for i in range(-10,0):
+        print(i)
 
 
 if __name__ == '__main__':
@@ -49,6 +60,9 @@ if __name__ == '__main__':
     print_list(list_1= listt)
     a = int(input("Enter the number: "))
     count_digits(n = a)
+    list_11 = [3, 6, 8, 9]
+    reverse_list(lst=list_11)
+    display_nos()
 
 
 
