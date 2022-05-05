@@ -65,6 +65,10 @@ def change_key():
 def key_minvalue():
     print(min(dict_1, key=dict_1.get))
 
+def nesteddict_valueofkey():
+    print(nested_dict)
+    nested_dict['member2']['age'] = 21
+    print(nested_dict)
 
 if __name__=='__main__':
     list_2dict()
@@ -76,5 +80,6 @@ if __name__=='__main__':
     check_presence()
     change_key()
     key_minvalue()
+    nesteddict_valueofkey()
 
 
