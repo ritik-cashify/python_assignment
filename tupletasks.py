@@ -32,16 +32,24 @@ def copy_tuple(tp):
     result = tuple(result)
     print("The sliced tuple is:", result)
 
+#def modify
+#def sort
 
+def count_item(tp):
+    print(tp.count(1))
+
+def
 
 
 if __name__ == '__main__':
     tpl = (10, 20, 30, 40)
-    tpl1= (40, 50)
+    tpl1 = (40, 50)
     tp1 = ("Orange", [10, 20, 30], (5, 15, 25))
+    tpl2 = (1, 5, 6, 7, 0, 1, 1, 4, 1)
     reverse_tuple(tp=tpl)
     ac_twenty(tp=tp1)
     single_item(tp=(50,))
     unpack_tp(tp=tpl)
     swap_2tuple(tp=tpl, tp_1=tpl1)
     copy_tuple(tp=tpl)
+    count_item(tp=tpl2)
