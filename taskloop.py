@@ -29,6 +29,15 @@ def print_list(list_1):
         print(list_1[x])
         x = x + 1
 
+def count_digits(n):
+    count=0
+    while n>0:
+        n=n//10
+        count=count+1
+    print("Total digits:", count)
+
+
+
 if __name__ == '__main__':
     nat_nos()
     pyramid()
@@ -38,4 +47,8 @@ if __name__ == '__main__':
     mul_table(n)
     listt = [1, 2, 5, 6]
     print_list(list_1= listt)
+    a = int(input("Enter the number: "))
+    count_digits(n = a)
+
+
 
