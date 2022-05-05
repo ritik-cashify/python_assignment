@@ -58,6 +58,10 @@ def check_presence():
     else:
         print("not present")
 
+def change_key():
+    dict_1['amit'] = dict_1.pop('purvansh')
+    print(dict_1)
+
 
 if __name__=='__main__':
     list_2dict()
@@ -67,5 +71,6 @@ if __name__=='__main__':
     key_extract()
     delete_key()
     check_presence()
+    change_key()
 
 
