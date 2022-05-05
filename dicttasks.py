@@ -41,10 +41,18 @@ def def_values():
     result = dict.fromkeys(employees, defaults)
     print(result)
 
+def key_extract():
+    key_2extract = ['good','avtar']
+    dict_new = {k: dict_1[k] for k in key_2extract}
+    print(dict_new)
+
+
+
 if __name__=='__main__':
     list_2dict()
     merge_2dict()
     print_history()
     def_values()
+    key_extract()
 
 
