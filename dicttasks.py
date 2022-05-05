@@ -35,9 +35,16 @@ def print_history():
 
     print(sampleDict['class']['student']['marks']['history'])
 
+def def_values():
+    employees = ['Kelly', 'Emma']
+    defaults = {"designation": 'Developer', "salary": 8000}
+    result = dict.fromkeys(employees, defaults)
+    print(result)
+
 if __name__=='__main__':
     list_2dict()
     merge_2dict()
     print_history()
+    def_values()
 
 
