@@ -14,7 +14,14 @@ def list_2dict():
     dict_converted=dict(zip(head,value))
     print(dict_converted)
 
+def merge_2dict():
+    print("The first dict:",dict_1)
+    print("The second dict:",dict_2)
+    dict_1.update(dict_2)
+    print(dict_1)
+
 if __name__=='__main__':
     list_2dict()
+    merge_2dict()
 
 
