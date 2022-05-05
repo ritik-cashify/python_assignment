@@ -62,6 +62,9 @@ def change_key():
     dict_1['amit'] = dict_1.pop('purvansh')
     print(dict_1)
 
+def key_minvalue():
+    print(min(dict_1, key=dict_1.get))
+
 
 if __name__=='__main__':
     list_2dict()
@@ -72,5 +75,6 @@ if __name__=='__main__':
     delete_key()
     check_presence()
     change_key()
+    key_minvalue()
 
 
